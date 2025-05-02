@@ -13,6 +13,6 @@
     --gap-simple: 20px;
     --gap-double: 40px;
     --max-width: 100%;
-    --max-width-1: 34%;
+    --max-width-1: 34%;  /*modifier pour le responsive*/
     --line-height: 27px;
 }
