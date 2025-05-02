@@ -1,0 +1,165 @@
+@import "./header/header_variables.css";
+
+main section p {
+    color: var(--main-link-color);
+    font-family: var(--font-nav);
+    font-size: 1rem;
+    gap: 10px;
+    text-align: center;
+    width: 70%;
+}
+
+main section .imageflex1 img {
+    box-shadow: var(--shadow-box);
+    margin-bottom: 3%;
+    width: 80%;
+}
+
+/* classe première section */
+
+.adam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-simple);
+    margin-top: 50px;
+}
+
+.adam1 {
+    font-size: 1.3rem;
+}
+
+.upcoming {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 9%;
+    gap: var(--gap-simple);
+}
+
+.upcoming hr {
+    width: 90px;
+    border: 1px solid var(--cta-link-color);
+    margin-bottom: 3%;
+}
+
+/* Classe deuxième section */
+
+.imageconteneur1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 6%;
+}
+
+/* art 1 et 2 sec 1 */
+
+.imageflex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    gap: var(--gap-simple);
+}
+
+/* Classe troisième section */
+
+.parallaxhome2 {
+    background-image: linear-gradient(rgba(19, 19, 19, 0.5),rgba(19, 19, 19, 0.5)), url(../../Images_projet/image_home/section-bg-img.jpg);
+    height: 596px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.titrehome2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+    padding-top: 9%;
+}
+
+.titrehome2 p {
+    color: var(--header-link-color);
+    text-align: left;
+    width: 62%;
+    padding: 0 0 3% 0;
+}
+
+.titrehome2 h2 {
+    color: var(--header-link-color);
+}
+.titrehome2 hr {
+    width: 62.4px;
+    border: 1px solid var(--cta-link-color);
+}
+
+.titrehome2bis {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 49%;
+    gap: var(--gap-simple);
+}
+
+/* Classe quatrième section */
+
+/* art 1 sec 4 */
+
+.conteneurhome1 {
+    display: flex;
+    padding: 6% 0 6% 0;
+}
+
+.conteneurhome1bis {
+    display: flex;
+}
+
+.titrehome3 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: var(--gap-double);
+    margin-left: 18%;
+}
+
+.titrehome3 h2 {
+    text-align: left;
+    width: 65%;
+}
+
+.titrehome3 hr {
+    width: 46px;
+    border: 1px solid var(--cta-link-color);
+}
+
+.titrehome3 p {
+    text-align: left;
+    line-height: var(--line-height);
+}
+
+/* art 2 sec 4 */
+
+
+.imageconteneur2 {
+    display: flex;
+    gap: var(--gap-double);
+}
+
+.imageflex2 {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-simple);
+    max-width: var(--max-width-1);
+}
+
+.imageflex3 {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-simple);
+    max-width: var(--max-width-1);
+}
